@@ -124,6 +124,7 @@ Some general guidelines:
 * logging time duration should be done in seconds (call the `Seconds()` method on any duration.
 * keep logging to a minimum.
 * call the main config parse function just `parse`.
+* try to minimize the number of knobs in the configuration.
 
 ## Qualifying for Main Repo
 
