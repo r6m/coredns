@@ -125,6 +125,7 @@ Some general guidelines:
 * keep logging to a minimum.
 * call the main config parse function just `parse`.
 * try to minimize the number of knobs in the configuration.
+* use `plugin.Error()` to wrap errors returned from the `setup` function.
 
 ## Qualifying for Main Repo
 
