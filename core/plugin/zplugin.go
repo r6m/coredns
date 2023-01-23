@@ -30,8 +30,6 @@ import (
 	_ "github.com/coredns/coredns/plugin/header"
 	_ "github.com/coredns/coredns/plugin/health"
 	_ "github.com/coredns/coredns/plugin/hosts"
-	_ "github.com/coredns/coredns/plugin/k8s_external"
-	_ "github.com/coredns/coredns/plugin/kubernetes"
 	_ "github.com/coredns/coredns/plugin/loadbalance"
 	_ "github.com/coredns/coredns/plugin/local"
 	_ "github.com/coredns/coredns/plugin/log"
@@ -56,4 +54,9 @@ import (
 	_ "github.com/coredns/coredns/plugin/tsig"
 	_ "github.com/coredns/coredns/plugin/view"
 	_ "github.com/coredns/coredns/plugin/whoami"
+	_ "github.com/r6m/coredns-sql"
+	_ "gorm.io/driver/mysql"
+	_ "gorm.io/driver/postgres"
+	_ "gorm.io/driver/sqlite"
+	_ "gorm.io/driver/sqlserver"
 )
